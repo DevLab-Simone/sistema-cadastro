@@ -50,7 +50,7 @@ sistema-cadastro/
 
 ## ▶️ Como executar o projeto
 
-<img align="right" width="350" src="https://raw.githubusercontent.com/SimoneSoaress/SimoneSoaress/main/SimoneCorpoInteiro.png" style="border-radius: 50%;">
+<img align="right" width="450" src="https://raw.githubusercontent.com/SimoneSoaress/SimoneSoaress/main/SimoneCorpoInteiro.png" style="border-radius: 50%;">
 
 1. Clone o repositório: git clone https://github.com/SimoneSoaress/sistema-cadastro.git
 
@@ -66,9 +66,9 @@ sistema-cadastro/
 
 5. Acesse no navegador: http://127.0.0.1:5000
 
----
 
-## 🔄 Versionamento
+
+### 🔄 Versionamento
 
 Durante o desenvolvimento foram aplicados conceitos de versionamento, incluindo:
 
