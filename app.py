@@ -1,6 +1,7 @@
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request, redirect, flash
 
 app = Flask(__name__)
+app.secret_key = 'segredo123'  # necessário para o flash
 
 usuarios = []
 
@@ -20,7 +21,9 @@ def cadastrar():
         "email": email
     })
 
-    return redirect('/usuarios')
+    flash("Usuário cadastrado com sucesso! ✅")
+
+    return redirect('/')
 
 @app.route('/usuarios')
 def listar():
